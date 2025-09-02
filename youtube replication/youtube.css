@@ -16,10 +16,7 @@ p {
     margin-right: 23px;
     cursor: pointer;
 }
-.menu:hover {
-    background-color: rgb(240, 240, 240);
-    
-}
+
 .upload {
     height: 40px;
     width:  40px;
