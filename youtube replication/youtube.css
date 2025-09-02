@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding-top: 10px;
 }
 .thumbnail {
     width: 100%;
@@ -18,9 +19,34 @@ p {
     border: none;
     background-color: white;
 }
+.home {
+    height: 55px;
+    width: 60px;
+}
+
+.explore {
+    height: 55px;
+    width: 60px;
+}
+.subscriptions {
+    height: 55px;
+    width: 60px;
+}
+.original {
+    height: 55px;
+    width: 60px;
+}
+.youtube-music {
+    height: 55px;
+    width: 60px;
+}
+.library {
+    height: 55px;
+    width: 60px;
+}
 .nofications {
     height: 40px;
-    width:  40px;
+    width:  60px;
     border: none;
     background-color: white;
 }
@@ -59,6 +85,23 @@ p {
     margin-top: 4px;
     width: 25px;
 }
+.sidebar {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 56px;
+    background-color: pink;
+    width: 60px;
+}
+
+.sidebuttons {
+    align-items: center;
+    /* justify-content: space-between; */
+    display: flex;
+    flex-direction: column;
+}
 .header {
     height: 55px;
     display: flex;
@@ -68,6 +111,9 @@ p {
     top: 0;
     left: 0;
     right: 0;
+    border-style: solid;
+    border-color: rgb(230,230,230);
+    border-bottom-width: 1px;
     background-color: white;
 }
 .left-section {
@@ -116,6 +162,7 @@ p {
     width: 200px;
 }
 .biggrid {
+    padding-left: 75px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
