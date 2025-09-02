@@ -1,16 +1,18 @@
 body {
-    margin: 0;
+    margin: 0; 
     padding-top: 10px;
+    padding-right: 10px;
 }
 .thumbnail {
     width: 100%;
+    border-radius: 5px;
 }
 p {
     font-family: Roboto, Arial;
 }
 .menu {
     height: 25px;
-    margin-left: 23px;
+    margin-left: 16px;
     margin-right: 23px;
 }
 .upload {
@@ -22,15 +24,23 @@ p {
 .home {
     height: 55px;
     width: 60px;
+    background-color: white;
+    border: none;
 }
 
 .explore {
     height: 55px;
     width: 60px;
+    background-color: white;
+    border: none;
 }
 .subscriptions {
     height: 55px;
     width: 60px;
+    background-color: white;
+    border: none;
+    background-color: white;
+    border: none;
 }
 .size-icon {
     width: 20px;
@@ -41,14 +51,20 @@ p {
 .original {
     height: 55px;
     width: 60px;
+    background-color: white;
+    border: none;
 }
-.youtube-music {
+.youtube-musics {
     height: 55px;
     width: 60px;
+    background-color: white;
+    border: none;
 }
 .library {
     height: 55px;
     width: 60px;
+    background-color: white;
+    border: none;
 }
 .nofications {
     height: 40px;
@@ -98,7 +114,6 @@ p {
     left: 0px;
     bottom: 0px;
     top: 56px;
-
     width: 60px;
 }
 
@@ -107,6 +122,17 @@ p {
     /* justify-content: space-between; */
     display: flex;
     flex-direction: column;
+}
+.time-of-video {
+    position: absolute;
+    background-color: black;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    right: 5px;
+    bottom: 7px;
+    color: white;
+    border-radius: 2.5px;
+    opacity: 0.7;
 }
 .header {
     height: 55px;
@@ -197,6 +223,7 @@ p {
 }
 .thumbnail-frame {
     margin-bottom: 12px;
+    position: relative;
 }
 .author {
     color: gray;
