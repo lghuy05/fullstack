@@ -64,6 +64,11 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
 }
 .left-section {
     width: 150px; 
@@ -75,6 +80,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* flex-shrink: 0; */
 }
 .search-bar {
     flex: 1;
@@ -85,6 +91,7 @@ p {
     border-radius: 2px;
     border-style: solid;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.2);
+    width: 0;
 }
 .search-bar:focus {
     padding-left: 5px;
@@ -113,6 +120,7 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 40px;
+    margin-top: 60px;
 }
 
 .channel-avatar-frame {
