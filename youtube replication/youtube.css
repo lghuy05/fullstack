@@ -189,6 +189,7 @@ p {
     border-color: rgb(230,230,230);
     border-bottom-width: 1px;
     background-color: white;
+    z-index: 10;
 }
 .left-section {
     width: 150px; 
@@ -243,7 +244,11 @@ p {
     row-gap: 40px;
     margin-top: 60px;
 }
-
+@media (max-width: 600px) {
+    .biggrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 .channel-avatar-frame {
     width: 50px;
     vertical-align: top;
