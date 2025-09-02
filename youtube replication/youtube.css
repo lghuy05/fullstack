@@ -32,6 +32,12 @@ p {
     height: 55px;
     width: 60px;
 }
+.size-icon {
+    width: 20px;
+}
+.icon-text {
+    font-size: 8px;
+}
 .original {
     height: 55px;
     width: 60px;
@@ -46,7 +52,7 @@ p {
 }
 .nofications {
     height: 40px;
-    width:  60px;
+    width:  40px;
     border: none;
     background-color: white;
 }
@@ -92,7 +98,7 @@ p {
     left: 0px;
     bottom: 0px;
     top: 56px;
-    background-color: pink;
+
     width: 60px;
 }
 
